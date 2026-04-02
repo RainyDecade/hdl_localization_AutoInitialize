@@ -211,6 +211,6 @@ ndt_num_threads: 4             # NDT 并行线程数
 
 ---
 
-**最后更新**: 2025年4月2日  
+**最后更新**: 2026年4月2日  
 **兼容系统**: ROS Noetic, Ubuntu 20.04  
 **测试平台**: Faster-LIO + Velodyne 雷达
