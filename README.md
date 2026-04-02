@@ -1,0 +1,2 @@
+# hdl_localization_AutoInitialize
+基于ScanContext和BTC描述子自动初始化Hdl重定位算法的初始位姿，不用在Rviz中通过2D Pose Estimate手动初始化
