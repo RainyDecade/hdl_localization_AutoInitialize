@@ -1,0 +1,11 @@
+cloud_topic: /velodyne_points
+odom_topic: /Odometry
+output_dir: /home/wang/scancontext/src/btc_init_localizer/btc_db
+map_frame: camera_init
+save_every_n: 3
+sync_queue_size: 20
+is_high_fly: 0
+# 是否启用并行 STL 加速（1=启用，0=关闭）
+parallel_stl_enable: 1
+# 并行触发阈值：仅当待处理数量 >= 该值时才并行，避免小数据规模下线程开销
+parallel_stl_min_size: 256

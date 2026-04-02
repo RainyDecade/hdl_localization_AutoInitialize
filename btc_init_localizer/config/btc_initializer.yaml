@@ -1,0 +1,19 @@
+db_dir: /home/wang/scancontext/src/btc_init_localizer/btc_db
+lidar_topic: /velodyne_points
+map_frame: map
+initialpose_topic: /initialpose
+service_wait_cloud_sec: 1.0
+btc_score_threshold: 0.15
+is_high_fly: 0
+skip_near_num: -1
+# 是否启用并行 STL 加速（1=启用，0=关闭）
+parallel_stl_enable: 1
+# 并行触发阈值：仅当待处理数量(循环次数) >= 该值时才并行，避免小数据规模下线程开销
+parallel_stl_min_size: 256
+
+ndt_resolution: 1.0
+ndt_step_size: 0.1
+ndt_trans_eps: 0.01
+ndt_max_iter: 40
+ndt_num_threads: 4
+ndt_neighborhood: 2

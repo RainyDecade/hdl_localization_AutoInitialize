@@ -1,0 +1,5 @@
+<launch>
+  <node pkg="btc_init_localizer" type="btc_map_builder_node" name="btc_map_builder" output="screen">
+    <rosparam command="load" file="$(find btc_init_localizer)/config/btc_builder.yaml" />
+  </node>
+</launch>
